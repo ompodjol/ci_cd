@@ -1,0 +1,11 @@
+When starting this project
+
+1. mkdir ci_cd
+2. cd ci_cd
+3. download python, https://www.python.org/downloads/ 3.12.2
+4. install the python
+5. get the version of the python3, python3 --version
+6. create a python env, python3 -m venv venv
+7. activate the python env, source venv/bin/activate
+8. creating requirements.txt, pip freeze > requirements.txt
+9.  
