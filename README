@@ -1,5 +1,6 @@
 When starting this project
 
+Laptop Command line:
 1. mkdir ci_cd
 2. cd ci_cd
 3. download python, https://www.python.org/downloads/ 3.12.2
@@ -9,3 +10,28 @@ When starting this project
 7. activate the python env, source venv/bin/activate
 8. creating requirements.txt, pip freeze > requirements.txt
 9.  
+
+
+In GitHub:
+1. create the ci_cd repo.
+
+then back to laptop command line:
+(venv) (venv) jollyjae@Jollys-MBP ci_cd % history
+ 1008  ls
+ 1009  cd ci_cd
+ 1010  ls
+ 1011  clear
+ 1012  ls
+ 1013  ls
+ 1014  ls
+ 1015  git init
+ 1016  git status
+ 1017  git add README requirements.txt venv
+ 1018  git status
+ 1019  git commit
+ 1020  git branch -M main
+ 1021  git remote add origin git@github.com:ompodjol/ci_cd.git
+ 1022  git push -u origin main
+ 1023  ls
+(venv) (venv) jollyjae@Jollys-MBP ci_cd %
+
